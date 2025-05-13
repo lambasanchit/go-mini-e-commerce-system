@@ -1,0 +1,12 @@
+### Add Product
+POST http://localhost:8002/add
+Content-Type: application/json
+
+{
+  "id": "1",
+  "name": "Laptop",
+  "price": 999.99
+}
+
+### List Products
+GET http://localhost:8002/list

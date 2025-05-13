@@ -1,0 +1,26 @@
+### Register a new user
+POST http://localhost:8001/register
+Content-Type: application/json
+
+{
+  "username": "sanchit",
+  "password": "securepass123"
+}
+
+### Login with correct credentials
+POST http://localhost:8001/login
+Content-Type: application/json
+
+{
+  "username": "sanchit",
+  "password": "securepass123"
+}
+
+### Login with wrong password
+POST http://localhost:8001/login
+Content-Type: application/json
+
+{
+  "username": "sanchit",
+  "password": "wrongpass"
+}

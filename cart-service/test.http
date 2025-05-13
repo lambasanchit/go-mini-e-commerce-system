@@ -1,0 +1,20 @@
+### Add Item to Cart
+POST http://localhost:8003/add
+Content-Type: application/json
+
+{
+  "product_id": "1",
+  "quantity": 2
+}
+
+### Add Another Item to Cart
+POST http://localhost:8003/add
+Content-Type: application/json
+
+{
+  "product_id": "2",
+  "quantity": 1
+}
+
+### View Cart
+GET http://localhost:8003/view
